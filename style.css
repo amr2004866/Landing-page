@@ -2,7 +2,7 @@
 
 --features-ground:#f3f4fb;
 --worddesign-color:#bdb1f7;
-
+--learning-ground: #563d7c;
 
 }
 
@@ -33,7 +33,7 @@ color: black !important;
     color: #bdb1f7;
 }
 #learning{
-  background-color: #563d7c;
+  background-color: var(--learning-ground);
   color: white;
 }
 #learning:hover{
@@ -84,4 +84,67 @@ padding-bottom: 100px;
 .coursementor {
   margin-left: 150px; 
 }
+.sec4{
+background: linear-gradient(to right,#f3f4fb 50%, #ffffff 50%);
+padding-top: 100px;   
+padding-bottom: 100px; 
 
+}
+
+.sec4icon{
+margin-right: 350px;
+width: 80px;
+
+
+}
+.sec4-cards{
+  margin-left: 200px;
+}
+.card-border1{
+  border-top: 3px solid black;
+}
+.card-border2{
+  border-top: 3px solid #bdb1f7;
+}
+
+.sec5{
+  padding-top: 140px;
+  padding-bottom: 100px; 
+}
+#sec5link{
+background-color: white;
+color: black;
+border: 2px solid black;
+}
+#sec5link:hover{
+   background-color: var(--learning-ground);
+  color:white;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .sec4text {
+    background: none ;
+   background-color: var(--learning-ground);
+   margin-bottom: 30px;
+
+  }
+}
