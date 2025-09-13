@@ -1,0 +1,87 @@
+:root{
+
+--features-ground:#f3f4fb;
+--worddesign-color:#bdb1f7;
+
+
+}
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+
+
+
+body {
+  padding-top: 80px; 
+}
+
+#logo{
+    width: 150px;
+}
+.nav-link:hover {
+  color: #bdb1f7;
+}
+.signup:hover{
+background-color: #bdb1f7 !important;
+color: black !important;
+
+} 
+.special{
+    color: #bdb1f7;
+}
+#learning{
+  background-color: #563d7c;
+  color: white;
+}
+#learning:hover{
+
+  background-color: #bdb1f7;
+}
+#demo{
+  border: 1px solid white ;
+  color: white;
+
+}
+#demo:hover{
+  background-color: white;
+  color: #bdb1f7;
+}
+.startimg{
+  width: 120px;
+}
+.imgtable{
+  width: 35%;
+}
+.img-s{
+  width: 243px;
+  height: 300px;
+}
+#features{
+background-color: var(--features-ground);
+color: black;
+ padding-top: 100px;   
+padding-bottom: 100px; 
+
+
+}
+.worddesign{
+  color:var(--worddesign-color) ;
+}
+.cardcolor{
+  background-color: var(--features-ground);
+  border: none;
+}
+.leftcontent {
+  margin-right: 150px; 
+}
+.experiance{
+   padding-top: 100px;   
+  padding-bottom: 100px; 
+}
+.coursementor {
+  margin-left: 150px; 
+}
+
